@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="2" name="Failed suite [ParallelSuite]">
+  <test thread-count="5" name="All Tests(failed)">
+    <classes>
+      <class name="testCases.TC04_FactorialCheckWDataDriven">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="factorialCheck"/>
+        </methods>
+      </class> <!-- testCases.TC04_FactorialCheckWDataDriven -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T16:25:05 IST" name="Test Suite" finished-at="2026-01-05T16:25:49 IST" duration-ms="43808">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T16:25:05 IST" name="All Tests in Chrome" finished-at="2026-01-05T16:25:49 IST" duration-ms="43808">
+      <class name="testCases.TC02_URLTitlePlaceHolder">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:testCases.TC02_URLTitlePlaceHolder@13cf7d52]" started-at="2026-01-05T16:25:24 IST" name="launchApp" finished-at="2026-01-05T16:25:27 IST" duration-ms="2795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyTest()[pri:2, instance:testCases.TC02_URLTitlePlaceHolder@13cf7d52]" started-at="2026-01-05T16:25:27 IST" name="verifyTest" description="Verify the Placeholder value, Page Title, URL value in Factorial Page" finished-at="2026-01-05T16:25:27 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_URLTitlePlaceHolder@13cf7d52]" started-at="2026-01-05T16:25:27 IST" name="closeApp" finished-at="2026-01-05T16:25:27 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_URLTitlePlaceHolder -->
+      <class name="testCases.TC01_UIElementsValidation">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:testCases.TC01_UIElementsValidation@39ad977d]" started-at="2026-01-05T16:25:11 IST" name="launchApp" finished-at="2026-01-05T16:25:13 IST" duration-ms="2668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginToApplication()[pri:1, instance:testCases.TC01_UIElementsValidation@39ad977d]" started-at="2026-01-05T16:25:13 IST" name="loginToApplication" description="Validation All the necessary UI Elements are Present and Clickable" finished-at="2026-01-05T16:25:23 IST" duration-ms="10207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_UIElementsValidation@39ad977d]" started-at="2026-01-05T16:25:23 IST" name="closeApp" finished-at="2026-01-05T16:25:24 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_UIElementsValidation -->
+      <class name="testCases.TC04_FactorialCheckwDataDriven">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:31 IST" name="launchApp" finished-at="2026-01-05T16:25:34 IST" duration-ms="2697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:35 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:37 IST" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 0 is: 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:37 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:39 IST" duration-ms="1846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 1 is: 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:39 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:40 IST" duration-ms="1623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 50 is: 3.0414093201713376e+64]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:40 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:42 IST" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 100 is: 9.332621544394415e+157]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:42 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:44 IST" duration-ms="1605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 125 is: 1.882677176888926e+209]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:44 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:46 IST" duration-ms="1920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 150 is: 5.713383956445855e+262]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:46 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:47 IST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 170 is: 7.257415615307999e+306]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method signature="factorialCheck(java.lang.String,java.lang.String,int)[pri:4, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:47 IST" name="factorialCheck" description="Verify the result for few input&#039;s through Data Driven Testing" data-provider="factorialcheckdata" finished-at="2026-01-05T16:25:49 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[171]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 171 is: Infinity]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialCheck -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_FactorialCheckwDataDriven@5d2a4eed]" started-at="2026-01-05T16:25:49 IST" name="closeApp" finished-at="2026-01-05T16:25:49 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_FactorialCheckwDataDriven -->
+      <class name="testCases.TC05_AutomateBug">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:testCases.TC05_AutomateBug@57459491]" started-at="2026-01-05T16:25:05 IST" name="launchApp" finished-at="2026-01-05T16:25:10 IST" duration-ms="4257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="bugFlow()[pri:0, instance:testCases.TC05_AutomateBug@57459491]" started-at="2026-01-05T16:25:10 IST" name="bugFlow" description="Verify the scenario automated for a detected bug, Terms and Condition Page points to a Privacy content" finished-at="2026-01-05T16:25:10 IST" duration-ms="511" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Application Title does not contains Terms expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Application Title does not contains Terms expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC05_AutomateBug.bugFlow(TC05_AutomateBug.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bugFlow -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC05_AutomateBug@57459491]" started-at="2026-01-05T16:25:10 IST" name="closeApp" finished-at="2026-01-05T16:25:11 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC05_AutomateBug -->
+      <class name="testCases.TC03_AboutLink">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:testCases.TC03_AboutLink@3a3e4aff]" started-at="2026-01-05T16:25:27 IST" name="launchApp" finished-at="2026-01-05T16:25:30 IST" duration-ms="2636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="abtLink()[pri:3, instance:testCases.TC03_AboutLink@3a3e4aff]" started-at="2026-01-05T16:25:30 IST" name="abtLink" description="Verify the total number of link is Greater than 5 and print the link name" finished-at="2026-01-05T16:25:31 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abtLink -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AboutLink@3a3e4aff]" started-at="2026-01-05T16:25:31 IST" name="closeApp" finished-at="2026-01-05T16:25:31 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AboutLink -->
+    </test> <!-- All Tests in Chrome -->
+  </suite> <!-- Test Suite -->
+</testng-results>

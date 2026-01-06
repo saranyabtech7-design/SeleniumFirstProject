@@ -1,0 +1,23 @@
+<!-- Cross Browser testing Parallely-->
+
+<suite  name="Test Suite" thread-count="5" parallel="tests">
+	<test name="All Tests in Chrome" >
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC01_UIElementsValidation"/>
+			<class name="testCases.TC02_URLTitlePlaceHolder"/>
+			<class name="testCases.TC03_AboutLink"/>
+			<class name="testCases.TC04_FactorialCheck"/>
+		</classes>
+	</test>
+	
+		<test name="All Tests in Firefox" >
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="testCases.TC01_UIElementsValidation"/>
+			<class name="testCases.TC02_URLTitlePlaceHolder"/>
+			<class name="testCases.TC03_AboutLink"/>
+			<class name="testCases.TC04_FactorialCheck"/>
+		</classes>
+	</test>
+</suite>

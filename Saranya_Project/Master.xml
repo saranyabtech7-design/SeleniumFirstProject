@@ -1,0 +1,17 @@
+
+
+<suite  name="Test Suite" thread-count="5" parallel="tests">
+		<parameter name="browser" value="chrome"/>
+		<listeners>
+    		<listener class-name="utilities.ITestListenerClass"/>
+		</listeners>
+		<test name="All Tests in Chrome" >
+		<classes>
+			<class name="testCases.TC01_UIElementsValidation"/>
+			<class name="testCases.TC02_URLTitlePlaceHolder"/>
+			<class name="testCases.TC03_AboutLink"/>
+			<class name="testCases.TC04_FactorialCheckwDataDriven"/>
+			<class name="testCases.TC05_AutomateBug"/>
+		</classes>
+	</test>
+</suite>

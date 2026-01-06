@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.ITestListenerClass"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="All Tests in Chrome(failed)">
+    <classes>
+      <class name="testCases.TC05_AutomateBug">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="bugFlow"/>
+        </methods>
+      </class> <!-- testCases.TC05_AutomateBug -->
+    </classes>
+  </test> <!-- All Tests in Chrome(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
